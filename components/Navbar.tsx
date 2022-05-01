@@ -110,7 +110,7 @@ function Navbar() {
             {/* navbar toggle icon */}
             <div
               onClick={() => setIsSidebar(true)}
-              className="mr-5 flex w-fit cursor-pointer flex-col  transition-all ease-in-out hover:scale-x-50 lg:mr-0 lg:hidden"
+              className="mr-3 flex w-fit cursor-pointer flex-col  transition-all ease-in-out hover:scale-x-50 lg:mr-0 lg:hidden"
             >
               <div className="h-0.5 w-12 rounded bg-lime-400 lg:w-24"></div>
               <div className="mt-2 -ml-5 h-0.5 w-12 rounded bg-lime-400 lg:-ml-10 lg:w-24"></div>
