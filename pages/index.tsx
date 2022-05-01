@@ -4,6 +4,7 @@ import Container from '../components/Container'
 import FavArtists from '../components/Homepage/FavArtists'
 import Hero from '../components/Homepage/Hero'
 import LatestRelease from '../components/Homepage/LatestRelease'
+import Merch from '../components/Homepage/Merch'
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
 
         <FavArtists />
         <LatestRelease />
+        <Merch />
       </main>
     </>
   )
