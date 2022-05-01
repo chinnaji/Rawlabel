@@ -66,7 +66,7 @@ function FavArtists() {
               <Image src={}
             </div> */}
 
-          <div className="my-10 w-full text-6xl font-light lg:text-8xl">
+          <div className="my-10 w-full text-5xl font-light lg:text-8xl">
             <h5>WE COLLABORATE</h5>
             <h5>
               WITH AMBITIOUS{' '}
