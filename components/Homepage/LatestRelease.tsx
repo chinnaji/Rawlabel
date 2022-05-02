@@ -64,7 +64,7 @@ function LatestRelease() {
     <>
       <Container>
         <section className="my-10 flex flex-wrap py-10 text-zinc-100">
-          <h2 className="mx-5 mb-2 w-full border-b border-b-zinc-900 pb-2 text-4xl font-light md:mb-7">
+          <h2 className="mx-5 mb-2 w-full border-b border-b-zinc-700 pb-2 text-4xl font-light md:mb-7">
             Latest Releases
           </h2>
 

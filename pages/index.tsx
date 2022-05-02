@@ -6,6 +6,8 @@ import Hero from '../components/Homepage/Hero'
 import VideoHero from '../components/Homepage/VideoHero'
 import LatestRelease from '../components/Homepage/LatestRelease'
 import Merch from '../components/Homepage/Merch'
+import UpcomingTour from '../components/Homepage/UpcomingTour'
+import Hero2 from '../components/Homepage/Hero2'
 
 const Home: NextPage = () => {
   return (
@@ -22,8 +24,11 @@ const Home: NextPage = () => {
 
         <FavArtists />
         <LatestRelease />
-        <Merch />
         <VideoHero />
+        <UpcomingTour />
+        <Merch />
+
+        <Hero2 />
       </main>
     </>
   )

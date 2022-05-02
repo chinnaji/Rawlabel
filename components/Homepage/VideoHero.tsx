@@ -43,11 +43,11 @@ function VideoHero() {
         <a
           onMouseEnter={() => setIsCursor(false)}
           href="#"
-          className=" absolute bottom-10 left-5 z-30  flex h-52 w-52 flex-col bg-lime-400 p-4 hover:bg-lime-500 lg:left-20 lg:bottom-24"
+          className=" absolute bottom-10 left-5 z-30  flex h-52 w-52 flex-col bg-lime-400 p-4 text-black hover:bg-lime-500 lg:left-20 lg:bottom-24"
         >
           <BsArrowUpRight className="ml-auto text-2xl" />
 
-          <h5 className="mt-auto mb-3 font-semibold">
+          <h5 className="mt-auto mb-3 font-semibold ">
             Dynamic Festival 2022 Official
           </h5>
         </a>

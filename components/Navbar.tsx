@@ -61,7 +61,7 @@ function Navbar() {
     <header
       className={`${
         isNavbarActive
-          ? 'border-b border-b-zinc-900 bg-black'
+          ? 'border-b border-b-zinc-700 bg-black'
           : 'bg-transparent'
       }  fixed top-0 z-50 max-h-28 w-full overflow-hidden border-b-zinc-700  py-3 transition-all  ease-in-out `}
     >
