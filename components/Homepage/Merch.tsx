@@ -8,9 +8,10 @@ import merch4 from '../../images/MERCH/img (4).jpg'
 import merch5 from '../../images/MERCH/img (5).jpg'
 import merch6 from '../../images/MERCH/img (6).jpg'
 import merch7 from '../../images/MERCH/img (7).jpg'
+import { TMerch } from '../../interfaces/index'
 
 function Merch() {
-  const merchs = [
+  const merchs: TMerch[] = [
     {
       image: merch1,
       title: 'Nella feat. Tommy',

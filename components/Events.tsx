@@ -1,8 +1,10 @@
 import React from 'react'
+import { TEvents } from '../interfaces/index'
 import img1 from '../images/EVENTS/img (1).jpg'
 import img4 from '../images/EVENTS/img (2).jpg'
 import img3 from '../images/EVENTS/img (3).jpg'
 import img2 from '../images/EVENTS/img (4).jpg'
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
 
@@ -14,7 +16,7 @@ import { Autoplay } from 'swiper'
 import Image from 'next/image'
 
 function Events() {
-  const events = [
+  const events: TEvents[] = [
     {
       image: img1,
       title: 'Nella feat. Tommy',

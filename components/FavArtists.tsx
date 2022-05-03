@@ -1,4 +1,6 @@
 import React from 'react'
+import { Tfavs } from '../interfaces/index'
+
 import Container from './Container'
 import Image from 'next/image'
 import fav1 from '../images/Artist-img-1.jpg'
@@ -7,11 +9,6 @@ import fav3 from '../images/Artist-img-3.jpg'
 import Link from 'next/link'
 import { BsArrowUpRight } from 'react-icons/bs'
 
-type Tfavs = {
-  image: any
-  name: string
-  tag: string
-}
 function FavArtists() {
   const favs: Tfavs[] = [
     {

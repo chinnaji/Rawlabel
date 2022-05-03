@@ -1,14 +1,8 @@
 import React from 'react'
 import Container from '../Container'
 import { BsArrowUpRight } from 'react-icons/bs'
+import { Ttours } from '../../interfaces/index'
 
-type Ttours = {
-  date: string
-  month: string
-  title: string
-  city: string
-  state: string
-}
 function UpcomingTour() {
   const tours = [
     {

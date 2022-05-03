@@ -8,8 +8,10 @@ import lr4 from '../../images/LR/img (4).jpg'
 import lr5 from '../../images/LR/img (5).jpg'
 import lr6 from '../../images/LR/img (6).jpg'
 import lr7 from '../../images/LR/img (7).jpg'
+import { TReleases } from '../../interfaces/index'
+
 function LatestRelease() {
-  const releases = [
+  const releases: TReleases[] = [
     {
       image: lr1,
       title: 'Nella feat. Tommy',

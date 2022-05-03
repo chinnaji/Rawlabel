@@ -11,7 +11,7 @@ import img7 from '../images/INSTAGRAM_IMAGES/img (7).jpg'
 import img8 from '../images/INSTAGRAM_IMAGES/img (8).jpg'
 import { AiFillInstagram } from 'react-icons/ai'
 function InstagramPosts() {
-  const posts = [img1, img2, img3, img4, img5, img6]
+  const posts: StaticImageData[] = [img1, img2, img3, img4, img5, img6]
 
   return (
     <>
