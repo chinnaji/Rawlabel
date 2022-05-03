@@ -1,7 +1,12 @@
 import React from 'react'
+import Hero from '../components/errorPage/Hero'
 
 function index() {
-  return <div>index</div>
+  return (
+    <div>
+      <Hero />
+    </div>
+  )
 }
 
 export default index
