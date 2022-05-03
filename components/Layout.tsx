@@ -2,6 +2,7 @@ import React, { ReactNode } from 'react'
 import Navbar from './Navbar'
 import { TChildren } from '../interfaces'
 import Footer from './Footer'
+import Label from './Label'
 
 function Layout({ children }: TChildren) {
   return (
@@ -9,6 +10,7 @@ function Layout({ children }: TChildren) {
       <Navbar />
       {children}
       <Footer />
+      <Label />
     </>
   )
 }
