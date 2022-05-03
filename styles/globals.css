@@ -29,3 +29,6 @@ p {
 .instagram_post_container:hover .instagram_post_overlay {
   display: block;
 }
+main {
+  overflow-x: hidden;
+}

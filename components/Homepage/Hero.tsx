@@ -27,7 +27,7 @@ function Hero() {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
           </p>
           <Link href="/about">
-            <a className="mt-16  rounded bg-lime-400 px-10 py-3 font-semibold text-black transition-all ease-in-out hover:bg-lime-500 ">
+            <a className="mt-16   bg-lime-400 px-10 py-4 font-semibold text-black transition-all ease-in-out hover:bg-lime-500 ">
               LEARN MORE
             </a>
           </Link>
