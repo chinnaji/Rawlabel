@@ -28,17 +28,15 @@ function Navbar() {
       title: 'Events',
       path: '/events',
     },
+
     {
-      title: 'Discography',
-      path: '/discography',
+      title: '404',
+      path: '/error',
     },
+
     {
-      title: 'Blog',
-      path: '/blog',
-    },
-    {
-      title: 'Shop',
-      path: '/shop',
+      title: 'Contact',
+      path: '/contact',
     },
   ]
   // navabar toogle state
