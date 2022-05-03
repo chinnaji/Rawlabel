@@ -16,9 +16,16 @@ h4,
 h5,
 nav,
 button,
-a {
+a,
+input {
   font-family: 'Space Grotesk', sans-serif;
 }
 p {
   font-family: 'Heebo', sans-serif;
+}
+.artiste_container:hover .artiste_name {
+  display: block;
+}
+.instagram_post_container:hover .instagram_post_overlay {
+  display: block;
 }

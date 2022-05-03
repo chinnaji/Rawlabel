@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Container from '../Container'
+import Container from './Container'
 import {
   BsArrowUpRight,
   BsPlayCircleFill,
@@ -56,7 +56,7 @@ function VideoHero() {
       <div
         className={`${
           isCursor ? 'block' : 'hidden'
-        }  absolute z-20 flex h-32 w-32 items-center justify-center rounded-full bg-white  bg-opacity-20 text-6xl text-lime-400  backdrop-blur-xl transition-all ease-in-out`}
+        }  absolute z-20 flex h-32 w-32 items-center justify-center rounded-full bg-white  bg-opacity-20 text-6xl text-lime-400  backdrop-blur-xl `}
         ref={playRef}
       >
         {isPlay ? <BsPauseCircleFill /> : <BsPlayCircleFill />}

@@ -8,6 +8,7 @@ import merch4 from '../../images/MERCH/img (4).jpg'
 import merch5 from '../../images/MERCH/img (5).jpg'
 import merch6 from '../../images/MERCH/img (6).jpg'
 import merch7 from '../../images/MERCH/img (7).jpg'
+
 function Merch() {
   const merchs = [
     {

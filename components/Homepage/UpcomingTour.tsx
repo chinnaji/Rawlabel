@@ -42,14 +42,14 @@ function UpcomingTour() {
   ]
   return (
     <Container>
-      <h2 className="mx-5 mb-2 mt-10 w-full border-b border-b-zinc-700 pb-2 text-4xl font-light md:mb-5">
+      <h2 className="mx-5 my-20 mb-2 w-full border-b border-b-zinc-700 py-10 pb-2 text-4xl font-light md:mb-5">
         Explore Upcoming Tour
       </h2>
 
       {tours.map((tour, index) => (
         <div
           key={index}
-          className="mt-5 flex flex-wrap items-center justify-between border-b border-b-zinc-700 py-7 px-4 md:mt-0"
+          className="mt-5 flex flex-wrap items-center justify-between border-b border-b-zinc-700 py-7 px-4 transition-all ease-linear hover:border-b-lime-400 md:mt-0"
         >
           <h4 className="w-full md:w-[10%]">
             <span className="text-6xl">{tour.date}</span>

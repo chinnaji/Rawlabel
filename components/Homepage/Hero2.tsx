@@ -7,7 +7,7 @@ import { BsArrowUpRight } from 'react-icons/bs'
 function Hero2() {
   return (
     <>
-      <div className="relative my-16 flex h-[60vh] w-full items-center justify-center bg-fixed">
+      <div className="relative mt-16 flex h-[60vh] w-full items-center justify-center bg-fixed">
         <Image
           src={bg}
           layout="fill"

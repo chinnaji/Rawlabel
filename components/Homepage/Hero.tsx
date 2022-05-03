@@ -33,7 +33,9 @@ function Hero() {
           </Link>
         </div>
         {/* bouncing arrow */}
-        <AiOutlineArrowDown className="absolute bottom-[5%] left-1/2 z-30 animate-bounce text-4xl text-zinc-100" />
+        <a href="#favArtist">
+          <AiOutlineArrowDown className="absolute bottom-[5%] left-1/2 z-30 animate-bounce text-4xl text-zinc-100" />
+        </a>
         {/* popup */}
       </div>
     </>

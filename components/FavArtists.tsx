@@ -1,9 +1,9 @@
 import React from 'react'
-import Container from '../Container'
+import Container from './Container'
 import Image from 'next/image'
-import fav1 from '../../images/Artist-img-1.jpg'
-import fav2 from '../../images/Artist-img-2.jpg'
-import fav3 from '../../images/Artist-img-3.jpg'
+import fav1 from '../images/Artist-img-1.jpg'
+import fav2 from '../images/Artist-img-2.jpg'
+import fav3 from '../images/Artist-img-3.jpg'
 import Link from 'next/link'
 import { BsArrowUpRight } from 'react-icons/bs'
 
@@ -33,7 +33,10 @@ function FavArtists() {
   return (
     <div>
       <Container>
-        <section className=" my-10 flex flex-wrap py-10 px-5 text-zinc-100">
+        <section
+          id="favArtist"
+          className=" my-10 flex flex-wrap py-10 px-5 text-zinc-100"
+        >
           <h2 className="mb-5 w-full text-2xl">Our favorite artist</h2>
 
           {favs.map((fav) => (
